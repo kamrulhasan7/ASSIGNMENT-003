@@ -52,3 +52,14 @@ var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
 //write your code here
 var email = student.name + student.roll + '.' + student.department + '@ph.ac.bd';
 console.log(email);
+
+
+/** Problem 06 :  (Current Salary )  */
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
+for(let n = 1; n<=experience; n++){
+    var percentage = startingSalary * 5 / 100;
+    startingSalary += percentage;
+}
+console.log(startingSalary.toFixed(2));
