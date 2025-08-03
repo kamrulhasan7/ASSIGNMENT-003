@@ -58,7 +58,7 @@ console.log(email);
 var experience = 30;
 var startingSalary = 45000;
 //write your code here
-for(let n = 1; n<=experience; n++){
+for(let count = 1; count<=experience; count++){
     var percentage = startingSalary * 5 / 100;
     startingSalary += percentage;
 }
